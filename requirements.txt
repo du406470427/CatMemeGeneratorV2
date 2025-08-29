@@ -1,0 +1,7 @@
+numpy
+pillow
+opencv-python
+requests
+pydub
+moviepy
+scikit-image

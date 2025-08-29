@@ -1,0 +1,12 @@
+{
+    "scenes": [
+        {
+            "scene": 1,
+            "background": "a peaceful forest",
+            "asset_id": "test_mp4",
+            "asset_prompt": "A test video",
+            "audio_prompt": "This is a test audio.",
+            "duration": 5
+        }
+    ]
+}

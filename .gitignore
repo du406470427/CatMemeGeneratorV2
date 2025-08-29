@@ -1,0 +1,28 @@
+# Ignore documentation files
+/docs/
+
+# Ignore media files in the memes directory
+/memes/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# pytest cache
+.pytest_cache/
+
+# Output directory
+/output/
+
+# Debug output
+/debug_output/
+
+# Env file
+.env
+
+# IDE files
+.idea/
+.vscode/
+
+# Jianying mcp
+jianying-mcp/
