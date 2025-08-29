@@ -17,8 +17,16 @@ __pycache__/
 # Debug output
 /debug_output/
 
-# Env file
+# Environment and security files
 .env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+config_local.json
+secrets.json
 
 # IDE files
 .idea/
