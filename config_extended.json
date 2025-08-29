@@ -1,0 +1,31 @@
+{
+    "pexels_api_key": "${PEXELS_API_KEY}",
+    "siliconflow_api_key": "${SILICONFLOW_API_KEY}",
+    "mcp_server": {
+        "jianying-mcp": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "C:\\Users\\Administrator\\Desktop\\meme\\jianying-mcp",
+                "run",
+                "python",
+                "-m",
+                "jianyingdraft.server"
+            ],
+            "env": {
+                "SAVE_PATH": "C:\\Users\\Administrator\\Desktop\\meme\\jianying-mcp\\draft",
+                "OUTPUT_PATH": "C:\\Users\\Administrator\\Desktop\\meme\\jianying-mcp\\output"
+            }
+        }
+    },
+    "video_settings": {
+        "resolution": "1920x1080",
+        "fps": 30,
+        "bitrate": "5000k"
+    },
+    "audio_settings": {
+        "sample_rate": 44100,
+        "channels": 2,
+        "bitrate": "192k"
+    }
+}
